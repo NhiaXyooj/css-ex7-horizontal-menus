@@ -1,0 +1,58 @@
+/* GLOBAL STYLES */
+
+body {
+	background-color: azure;
+}
+
+code {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/* WRAPPER */
+
+.wrapper {
+	width: 948px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	border: 3px solid lightsteelblue;
+}
+
+/* HEADER */
+
+.header {
+	padding-top: 20px;
+	background-color: powderblue;
+}
+
+.heading {
+	padding-left: 10px;
+	margin: 0;
+}
+
+.intro {
+	padding-left: 10px;
+}
+
+/* MAIN */
+
+.main-content {
+	padding: 10px;
+}
+.nav{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	padding: 5px 10px 10px 0px;
+}
+.nav-links{
+	background-color: rgb(103, 123, 222);
+	text-decoration: none;
+	padding: 10px 65px 10px 65px;
+}
+.nav-links:hover{
+	background-color: rgb(200, 214, 225)
+}
+.nav-links:active{
+	background-color: aliceblue;
+}
